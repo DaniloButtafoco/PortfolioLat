@@ -1,0 +1,40 @@
+.projectsPage {
+    display: grid;
+}
+
+.picContainer {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    margin-top: 90px;
+}
+
+.picAndP {
+    text-align: center;
+    font-family: solano-gothic-pro-mvb, sans-serif;
+    font-size: 27px;
+}
+
+.picProject {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-self: center;
+    width: 380px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+}
+
+.gitHubPro {
+    width: 10%;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.projectsPage > a  {
+    width: 80%;
+    text-align: center;
+    justify-self: center;
+}

@@ -1,0 +1,45 @@
+.meny {
+    width: 100%;
+}
+
+.menyContainer {
+    display: grid;
+    grid-template-columns: 45% 10% 10% 10% 10% 10%;
+    background: linear-gradient(90deg,#6d76f7,#6d76f7);
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,.75);
+}
+
+.daniloButtafoco {
+    font-size: 30px;
+    justify-self: start;
+    margin-left: 20%;
+    color: #e5989b; 
+    font-family: solano-gothic-pro-mvb, sans-serif;
+}
+
+.menyContainer > li {
+    list-style-type: none;
+    text-decoration: none;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-family: solano-gothic-pro-mvb, sans-serif;
+}
+
+.menyContainer > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.menyContainer > li > a:hover {
+    box-shadow: 0 0 0 0.5em #e5989b,
+     0 0 0 1em #66CCFF;
+  margin: 4em;
+  padding:1em;
+}
+
+
+
+
+
+

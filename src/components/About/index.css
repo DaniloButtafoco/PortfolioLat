@@ -1,0 +1,89 @@
+.aboutContainerAboutPage {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.infoCardsDanilo {
+    width: 320px;
+    height: 450px;  
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    justify-self: end;
+    margin: 20px;
+    display: grid;
+    margin-bottom: 30px;
+}
+
+.daniloContainer {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    margin-top: 25px;
+    height: 10%;
+}
+
+.daniloPicAbout {
+    width: 90%;
+    border-radius: 60px;
+    margin-left: 5px;
+}
+
+.daniloContainer > p {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+.hrAbout {
+    width: 80%;
+    height: 0;
+    border: 1px solid lightgray;
+    margin: 0;
+    justify-self: center;
+    justify-content: center;
+}
+
+.heading { 
+    font-family: solano-gothic-pro-mvb, sans-serif;
+    margin-left: 10px;
+    height: 20px;
+}
+
+.infoDanilo{
+    font-family: solano-gothic-pro-mvb, sans-serif;
+    width: 80%;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+/* ------------------------ */
+
+.workCard {
+    width: 320px;
+    height: 450px;  
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    justify-self: start;
+    display: grid;
+    margin-bottom: 30px;
+    margin: 20px;
+}
+
+.headingWorkcard {
+    text-align: center;
+    font-family: solano-gothic-pro-mvb, sans-serif;
+    align-self: end;
+}
+
+.workCard > p {
+    font-family: solano-gothic-pro-mvb, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.headingWorkcardH3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}

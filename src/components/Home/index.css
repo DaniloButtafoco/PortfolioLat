@@ -1,0 +1,90 @@
+.homeContainer {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    display: grid;
+}
+
+/*-----------*/
+
+.daniloPicAndHead {
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+.daniloPic {
+    width: 20%;
+}
+
+
+.daniloButtafocoHome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-family: solano-gothic-pro-mvb, sans-serif;
+    font-size: 80px;
+    color: #e5989b; 
+    text-shadow: 2px 2px #ff0000;
+}
+
+/*-----------*/
+
+.socialLinks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 40%;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.logo {
+  width: 20%; 
+  justify-self: center;
+}
+
+.socialLinks > a {
+    
+    text-align: center;
+}
+
+
+.logo:hover {
+    width: 30%;
+    transform: rotate(360deg);
+    transition: width 2s, height 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+
+}
+
+/*-----------*/
+
+.aboutContainer {
+    display: grid;
+    justify-self: center;
+    margin-top: 25px;
+}
+
+.aboutContainer > a > p {
+    text-align: center;
+    font-family: solano-gothic-pro-mvb, sans-serif;
+    font-size: 25px;
+}
+
+.aboutContainer > a {
+    text-decoration: none;
+    color: black;
+}
+
+.arrow {
+    width: 10%;
+    justify-self: center;
+}
+
+ 
